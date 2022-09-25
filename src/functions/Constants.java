@@ -28,6 +28,7 @@ public class Constants {
     private final String SCORE_FILENAME;
     private final String KEY;
     private final String MAIN_FILE;
+    private final String SUPER_MAIN_FILE;
 
     public Constants() {
         this.BLUE = new Color(51, 153, 255);
@@ -53,10 +54,15 @@ public class Constants {
         this.SCORE_FILENAME = "\\TikTacToe_score.tok";
         this.KEY = "#a$1O3k[B)%=2Dv5";
         this.MAIN_FILE = "\\Documents\\TikTacToe";
+        this.SUPER_MAIN_FILE = "\\Documents";
     }
 
     public String getKEY() {
         return this.KEY;
+    }
+
+    public String getSUPER_MAIN_FILE() {
+        return System.getProperty("user.home") + this.SUPER_MAIN_FILE;
     }
 
     public String getMAIN_FILE() {

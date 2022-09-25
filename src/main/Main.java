@@ -1233,7 +1233,8 @@ public class Main extends javax.swing.JFrame {
     /* (10247) Create a main folder for all game files in 'Documents' folder */
     private void createMainFolder() throws IOException {
         try {
-            Files.createDirectories(Paths.get(constants.getMAIN_FILE()));
+            Files.createDirectories(Paths.get(constants.getSUPER_MAIN_FILE())); // Create "Document" folder if not exists
+            Files.createDirectories(Paths.get(constants.getMAIN_FILE())); // Create "Document/TicTacToe" folder if not exists
         } catch (Exception ex) {
             writeErrorMessages(10247, "Error in 'createMainFolder' method", ex.getMessage().toString());
         }
