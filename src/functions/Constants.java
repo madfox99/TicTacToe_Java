@@ -53,8 +53,8 @@ public class Constants {
         this.SETTINGS_FILENAME = "\\TikTacToe_settings.tok";
         this.SCORE_FILENAME = "\\TikTacToe_score.tok";
         this.KEY = "#a$1O3k[B)%=2Dv5";
-        this.MAIN_FILE = "\\Documents\\TikTacToe";
         this.SUPER_MAIN_FILE = "\\Documents";
+        this.MAIN_FILE = SUPER_MAIN_FILE + "\\TikTacToe";
     }
 
     public String getKEY() {
