@@ -7,5 +7,5 @@ ___   ___    ___
 This is a simple TICTACTOE game that use Mini-Max Algorithm for make decisions.
 
 Language : Java</br>
-Used IDE : NetBeans IDE 8.2</br>
+Used IDE : NetBeans IDE 8.2</br></br>
 (Tested on Windows)
