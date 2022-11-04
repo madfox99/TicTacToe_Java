@@ -1724,7 +1724,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="2"/>
-                        <Property name="text" type="java.lang.String" value="ddythamara@duck.com"/>
+                        <Property name="text" type="java.lang.String" value="mrdoncode@gmail.com"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel22">
