@@ -2,11 +2,15 @@
 
 This is a simple Tic-Tac-Toe game that utilizes the Mini-Max Algorithm to make decisions.
 
+![Main Page](./images/main.png)
+
 ## Features
 
 - Play Tic-Tac-Toe against a challenging AI opponent.
 - Powered by the Mini-Max algorithm for strategic gameplay.
 - Compatibility tested on Windows.
+
+![Game Start](./images/play.png)
 
 ## How to Play
 
