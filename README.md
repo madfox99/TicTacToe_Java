@@ -12,7 +12,7 @@ This is a simple Tic-Tac-Toe game that utilizes the Mini-Max Algorithm to make d
 
 ![Game Start](./images/play.png)
 
-## How to Play
+## How to Run
 
 1. Clone the repository to your local machine.
 2. Open the project in your preferred Java IDE (e.g., NetBeans IDE 8.2).
